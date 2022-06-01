@@ -27,4 +27,4 @@ string = str(x)
 #booleans
 x = not True
 y = True or False
-z = True and True
+z = True and False
