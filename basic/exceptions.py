@@ -35,7 +35,7 @@ finally:
     print("This code will run no matter what")
 
 # raise an exception
-#raise NameError("Some error")
+# raise NameError("Some error")
 
 # raise in except
 try:
@@ -46,3 +46,19 @@ except:
 
 # assert
 assert "1" != "w"
+
+# else with try
+try:
+    print(1)
+except ZeroDivisionError:
+    print(2)
+else:
+    print(3)
+
+try:
+    print(1 / 0)
+except ZeroDivisionError:
+    print(4)
+else:
+    print(5)
+   
